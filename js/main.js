@@ -36,6 +36,9 @@
 		margin: -1,
 		items: 1,
 		nav: true,
+		autoplayTimeout: 500,    // Reduced from default 5000ms to 3000ms
+		autoplaySpeed: 500,      // Reduced animation speed (transition between slides)
+		smartSpeed: 500, 
 		navText: ['<i class="ion-ios-arrow-back" aria-hidden="true"></i>', '<i class="ion-ios-arrow-forward" aria-hidden="true"></i>'],
 		autoplay: true,
 		autoplayTimeout: 3000,

@@ -522,11 +522,12 @@ a:hover {
 .navbar-default {
   transition: all .5s ease-in-out;
   background-color: #ffffff;
-  padding-top: 28px;
-  padding-bottom: 28px;
+  /* padding-top: 28px;
+  padding-bottom: 28px; */
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.3);
+  padding: .2rem 1rem;
 }
 
 .navbar-default .nav-search {
@@ -625,8 +626,8 @@ a:hover {
 
 .navbar-default.navbar-reduce {
   transition: all .5s ease-in-out;
-  padding-top: 19px;
-  padding-bottom: 19px;
+  /* padding-top: 19px;
+  padding-bottom: 19px; */
 }
 
 .navbar-default.navbar-reduce .nav-link {
@@ -1968,6 +1969,7 @@ footer .credits {
 @media (max-width: 767px) {
   .text-brand {
     font-size: 1.8rem;
+    padding-left: 20px;
   }
 
   .section-t8 {
@@ -2016,6 +2018,10 @@ footer .credits {
   .card-body-c {
     padding: 0;
   }
+
+  .new-services-space{
+    padding: 0 7% 7% 7%;
+  }
 }
 
 @media (max-width: 575px) {
@@ -2027,3 +2033,39 @@ footer .credits {
     font-size: 1.3rem;
   }
 }
+
+.nav-fix {
+  argin-right: 0 !important;
+  margin-left: 0 !important;
+  justify-content: normal !important; /* Resets to default alignment */
+}
+
+
+.navbar-nav.contact-info {
+  margin-left: 20%;
+}
+
+.navbar-nav.contact-info .nav-link {
+  padding-right: 0;
+  white-space: nowrap;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav.contact-info {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    margin-left: 0;
+
+  }
+}
+
+
+
+.services-icons span{
+  font-size: 6rem;
+}
+
+
+
+
